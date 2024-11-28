@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header {
+    background: #123453;
+    color: #f2e9e9;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fdfbfb;
+    text-decoration: none;
+}
+
+.hero {
+    height: 100vh;
+    background: url('صور س/s4.png') center/cover no-repeat;
+    position: relative;
+
+    /* background: #c02020;*/
+    text-align: center;
+    padding: 50px 20px;
+    */
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background: #123453;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.products {
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.about,
+.contact {
+    padding: 20px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+
+/* Form Section */
+#services form {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(27, 18, 78, 0.923);
+}
+
+form label {
+    margin: 10px 0 5px;
+    color: #123453;
+}
+
+form input,
+form textarea,
+form button {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1em;
+    border: 1px solid #123453;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #123453;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #123453;
+    color: #fff;
+}
